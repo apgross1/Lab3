@@ -46,7 +46,7 @@ public class Hand {
 		this.CardsInHand.add(c);
 	}
 	
-	public Card  GetCardFromHand(int location)
+	public Card GetCardFromHand(int location)
 	{
 		return CardsInHand.get(location);
 	}
